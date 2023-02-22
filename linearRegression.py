@@ -13,7 +13,9 @@ from tqdm import tqdm
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn.model_selection import train_test_split
+sns.set_style('darkgrid')
 
 """# Linear Regression:
 
@@ -333,10 +335,6 @@ class LinearRegression:
         fig, ax = plt.subplots(1, 1, figsize=(8,5))
         ax.scatter(y_pred, residuals, c=y_pred, cmap='Blues', alpha=1, label='Predicted')
         ax.scatter(y_pred, residuals, c=residuals, cmap='Greens', alpha=0.5, label='Residuals')
-    
-        # data = {'y_pred': y_pred, 'residuals': residuals}
-        # sns.scatterplot(data=data, x='y_pred', y='residuals', hue='y_pred', ax=ax)
-        # ax.scatter(y_pred, residuals, hue=)
         ax.set_xlabel('Predicted')
         ax.set_ylabel('Residuals')
         ax.set_title('Residual Plot')
