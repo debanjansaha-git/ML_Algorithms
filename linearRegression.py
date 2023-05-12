@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """ Linear Regression using Numpy
-    Author: Debanjan Saha & Ritika Rao
+    Author: Debanjan Saha
     Affiliation: College of Engineering, Northeastern University, Boston
     Course: IE 7300 - Statistical Learning in Engineering
     Term:   Spring 2023
