@@ -4,7 +4,7 @@
     Affiliation: College of Engineering, Northeastern University, Boston
     Course: IE 7300 - Statistical Learning in Engineering
     Term:   Spring 2023
-    Release Date: 02/23/2023
+    Release Date: 05/12/2023
     License: MIT License
 """
 # Import Libraries
